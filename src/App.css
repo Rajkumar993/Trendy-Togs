@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root{
+  --yellow:#F5A623;
+  --darkYellow:#df941c;
+  --blue:dodgerblue;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+ width: 100%;
+ background-color: white;
+ 
+}
+.left,.right,.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+}
+.logo-container,nav ul,.login-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.logo-container img{
+  width: 30px;
+  cursor: pointer;
+}
+.logo-container h3{
+  font-weight: 500;
+  cursor: pointer;
+}
+.middle ul{
+  list-style: none;
+  justify-content: space-between;
+ 
+
+}
+
+ul li{
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+
+ul li::before{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: var(--yellow);
+  position: absolute;
+  bottom: -5px;
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+  transform-origin: left;
+  border-radius: 5px;
+
+}
+ul li:hover::before{
+transform: scale(1);
+}
+.login-cart{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+.login-cart button{
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.login-cart button:hover{
+  background-color: var(--yellow);
+  color: white;
+  transition: 0.3s ;
+  
+}
+.login-cart img{
+  width: 30px;
+  cursor: pointer;
+  
+}
+@media screen  {
+  
+}

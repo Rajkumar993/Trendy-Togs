@@ -1,0 +1,153 @@
+.displayContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+ margin-top: 40px;
+ 
+}
+.displayContainer .con{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 80%;
+  gap: 40px;
+  position: relative;
+}
+.displayLeft{
+  display: flex;
+  gap: 10px;
+}
+.verticalImgs{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.verticalImgs img{
+  width: 70px;
+}
+.BigImg{
+  display: flex;
+  align-items: center;
+}
+.displayRight{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.starRating img{
+width: 15px; 
+}
+.starRating {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+ 
+}
+.productPrice{
+  display: flex;
+  gap: 10px;
+}
+.productPrice p:nth-child(2){
+  text-decoration: line-through;
+  color: grey;
+}
+.productPrice p:nth-child(1){
+  color: red;
+}
+.productDescription p{
+font-size: 14px;
+}
+.productSize p{
+  margin-bottom: 10px;
+ 
+}
+.productSize button{
+  padding: 5px 15px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.productSize button:focus{
+  background-color: var(--blue);
+  color: white;
+  
+}
+.cartBtn button{
+  padding: 6px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.5);
+}
+.cartBtn button:hover{
+  background-color: var(--darkYellow);
+}
+@media screen and (max-width:446px) {
+  .displayContainer{
+    margin-top: 0px;
+  }
+  .con{
+    align-items: center;
+    width: 100%;
+  }
+.BigImg img{
+  width: 150px;
+}
+.verticalImgs img{
+  width: 30px;
+}
+.displayRight{
+  gap: 2px;
+}
+.displayRight h2{
+ font-size: 13px;
+}
+.starRating img{
+  width: 12px;
+}
+.starRating{
+  gap: 5px;
+}
+.starRating p{
+  font-size: 11px;
+}
+.productPrice p{
+  font-size: 11px;
+}
+.productDescription p{
+  font-size:8px ;
+}
+.productSize{
+  position: absolute;
+  left: -10px;
+ bottom: 0px;
+}
+.productSize button{
+  font-size: 10px;
+  padding: 3px  10px;
+}
+.cartBtn button{
+  font-size: 12px;
+  padding: 3px 10px;
+}
+.catogery p{
+  font-size: 10px;
+  margin-top: 5px;
+}
+.toast{
+  width: 200px;
+  height: 30px;
+  font-size: 12px;
+}
+}

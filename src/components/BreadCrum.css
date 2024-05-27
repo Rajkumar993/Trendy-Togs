@@ -1,0 +1,15 @@
+.breadcrum{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ justify-content: center;
+ margin-top: 20px;
+ border: 2px solid var(--yellow);
+ padding: 5px;
+}
+@media screen and (max-width:446px) {
+  .breadcrum{
+    font-size: 10px; 
+    gap: 5px;
+  }
+}

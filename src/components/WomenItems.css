@@ -1,0 +1,49 @@
+.img1 img{
+  width: 200px;
+  margin: 0 auto;
+
+}
+.img1:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+
+}
+.para{
+  display: flex;
+  gap: 20px;
+
+}
+.oldItem{
+  text-decoration: line-through;
+  color: rgb(185, 185, 185);
+}
+.productName{
+  font-size: 14px;
+  display: flex;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+
+}
+.banner img{
+  width: 80%;
+
+}
+@media screen and (max-width:446px) {
+  
+  .img1 img{
+    width: 250px;
+    margin: 0 auto;
+  }
+  .items{
+    width: 100%;
+  }
+  .banner img{
+    width: 100%;
+    height: 150px;
+   margin-left: 30px;
+  }
+}
