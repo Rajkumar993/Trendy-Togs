@@ -44,9 +44,10 @@ border: none;
   background-color:var(--darkYellow) ;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:320px) {
   .NewsContainer{
     width: 100%;
+    text-align: center;
   }
   .NewsContainer h2{
     font-size: 16px;
@@ -54,8 +55,17 @@ border: none;
   .NewsContainer p{
     font-size: 14px;
   }
+  
   .NewsContainer .inputs{
     width: 100%;
+    
+  }
+  .inputs button{
+font-size: 9px;
+    flex: 1;
+  }
+  .inputs input{
+    flex: 1;
   }
 
 }

@@ -77,10 +77,10 @@ text-align: center;
 .cartTotal{
   align-self: self-start;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 width: 100%;
 padding: 30px 0px 30px 65px;
-gap: 20px;
+gap: 30px;
 justify-content: space-between;
 }
 .amt{
@@ -117,7 +117,7 @@ font-weight: 700;
   font-weight: 700;
 }
 .coupon{
-  align-self: center;
+  align-self: end;
   display: flex;
 align-items: center;
 justify-content: center;
@@ -248,6 +248,7 @@ display: flex;
   }
   .coupon {
     margin-bottom: 30px;
+    align-self: center;
   }
   .cartTotal{
     flex-direction: column;
