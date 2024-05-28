@@ -249,6 +249,10 @@ display: flex;
   .coupon {
     margin-bottom: 30px;
     align-self: center;
+    width: 90%;
+  }
+  .coupon  input{
+    flex: 1;
   }
   .cartTotal{
     flex-direction: column;

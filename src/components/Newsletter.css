@@ -44,28 +44,12 @@ border: none;
   background-color:var(--darkYellow) ;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:360px) {
   .NewsContainer{
     width: 100%;
     text-align: center;
+    display: none;
   }
-  .NewsContainer h2{
-    font-size: 16px;
-  }
-  .NewsContainer p{
-    font-size: 14px;
-  }
-  
-  .NewsContainer .inputs{
-    width: 100%;
-    
-  }
-  .inputs button{
-font-size: 9px;
-    flex: 1;
-  }
-  .inputs input{
-    flex: 1;
-  }
+
 
 }
