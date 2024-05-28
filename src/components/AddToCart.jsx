@@ -82,9 +82,9 @@ function handlePlace(){
     </tbody>
    </table>
    <div className="cartTotal">
-    
+   <h2 className='h2'>Cart Total</h2>  
  <div className="amt">
- <h2>Cart Total</h2>
+
  <div className="subtotal">
    <p>Sub Total</p>
    <p><span>$</span>{cart.reduce((acc,ind)=>(acc +=ind.qty*ind.product.new_price),0)}</p>

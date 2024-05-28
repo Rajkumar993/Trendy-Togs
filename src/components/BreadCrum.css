@@ -7,9 +7,9 @@
  border: 2px solid var(--yellow);
  padding: 5px;
 }
-@media screen and (max-width:446px) {
+@media screen and (max-width:360px) {
   .breadcrum{
-    font-size: 10px; 
+    font-size: 12px; 
     gap: 5px;
   }
 }

@@ -18,7 +18,7 @@ function handleCart(){
  }
  toast.success('Item Added To Cart',{
   className:'toast',
-  position:"bottom-right",
+  position:"top-right",
   autoClose:2000,
  
 }

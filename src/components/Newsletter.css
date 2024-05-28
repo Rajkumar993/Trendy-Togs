@@ -44,7 +44,7 @@ border: none;
   background-color:var(--darkYellow) ;
 }
 
-@media screen and (max-width:446px) {
+@media screen and (max-width:360px) {
   .NewsContainer{
     width: 100%;
   }
@@ -55,7 +55,7 @@ border: none;
     font-size: 14px;
   }
   .NewsContainer .inputs{
-    width: 70%;
+    width: 100%;
   }
 
 }

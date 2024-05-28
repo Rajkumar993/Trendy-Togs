@@ -43,18 +43,18 @@ box-shadow: 1px 2px 10px rgba(0,0,0,0.5);
   width:250px;
 }
 
-@media screen and (max-width:446px) {
+@media screen and (max-width:360px) {
   
   .offerRight img{
-    width:150px;
+    width:110px;
   }
   .offerContainer{
     width: 95%;
-   
+   gap: 40px;
   }
 
   .offerLeft h2{
-    font-size: 17px;
+    font-size: 14px;
   }
   .offerLeft p{
     font-size: 11px;

@@ -165,11 +165,12 @@ display: flex;
   border-radius: 20px;
   margin-bottom: 30px;
 }
-@media screen and (max-width:446px) {
+@media screen and (max-width:360px) {
 
   thead{
     flex-direction: row;
     gap: 25px;
+    font-size: 12px;
   }
   thead th:nth-child(2){
     display: none;
@@ -179,16 +180,24 @@ display: flex;
   }
   tbody tr{
     flex-direction: row;
-    gap: 60px;
+    gap: 40px;
   }
   .price1{
     position: relative;
-    left: 30px;
+    left: 25px;
+    font-size: 14px;
   }
   .price{
     position: relative;
-    left: 25px;
-    
+    left: 20px;
+    font-size: 14px;
+  }
+
+  .cross{
+    width: 15px;
+    margin-top: 5px;
+    position: relative;
+    left: 15px;
   }
   .tos{
     width: 200px;
@@ -203,17 +212,32 @@ display: flex;
   }
   .amt{
     width: 300px;
-    font-size: 12px;
+    flex-direction: row;
+    font-size: 10px;
+    gap: 0px;
+    
+    justify-content: center;
   }
-  .coupon{
-    width: 400px;
+
+  .h2{
+    font-size: 20px;
    
   }
- 
+  .coupon{
+    width: 200px;
+   
+  }
+  .hi{
+    width: 100%;
+  
+  }
   .hi input{
     font-size: 10px;
     padding: 2px;
-  
+   
+  }
+  .amt div{
+    padding: 5px 25px;
   }
   .hi button{
     font-size: 10px;
@@ -222,4 +246,24 @@ display: flex;
   .coupon .code{
     font-size: 8px;
   }
+  .coupon {
+    margin-bottom: 30px;
+  }
+  .cartTotal{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .subtotal,.shipping,.total{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid;
+    
+  }
+  .total{
+    font-weight: 600;
+  }
+
 }
