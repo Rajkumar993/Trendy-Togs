@@ -13,16 +13,17 @@ function handleCart(){
   const newItem={product,qty}
   setCart([...cart,newItem])
   
-  toast.success('Item Added To Cart',{
-    className:'toast',
-    position:"bottom-right",
-    autoClose:2000,
-   
-  }
-   
-  )
+ 
  
  }
+ toast.success('Item Added To Cart',{
+  className:'toast',
+  position:"bottom-right",
+  autoClose:2000,
+ 
+}
+ 
+)
  
 }
 localStorage.setItem('product',JSON.stringify(cart))
