@@ -51,6 +51,10 @@
    transform: translateY(-3px);
  filter: drop-shadow(4px 4px 15px rgba(0,0,0,1));
 }
+.footerMiddle a{
+ text-decoration: none;
+ color: black;
+}
 .copyRight{
   border-top: 2px double rgb(223, 222, 222) ;
   width: 100%;

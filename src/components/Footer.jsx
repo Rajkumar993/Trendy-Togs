@@ -19,7 +19,7 @@ export const Footer = ({scrollToTop}) => {
       </div>
       <div className="footerMiddle">
         <p>Company</p>
-        <p>Products</p>
+     <Link onClick={scrollToTop} to={'/'}><p>Products</p></Link>   
         <p>Offices</p>
         <p>About</p>
         <p>Contact</p>

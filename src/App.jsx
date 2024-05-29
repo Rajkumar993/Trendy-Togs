@@ -52,6 +52,7 @@ function scrollToTop(){
          </Route>
          <Route path='/login' element={<Login cart={cart}/>}/>
          <Route path='/cart' element={<AddToCart  cart={cart} setCart={setCart} />}/>
+        
        </Routes>
        <Footer  scrollToTop={scrollToTop} />
    </BrowserRouter>
